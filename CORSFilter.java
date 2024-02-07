@@ -55,3 +55,11 @@ public class CORSFilter implements Filter {
 	}
 
 }
+<filter>
+        <filter-name>CORSFilter</filter-name>
+        <filter-class>com.signupprofile.controller.CORSFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CORSFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
